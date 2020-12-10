@@ -1,0 +1,13 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+weather-api:
+  url: ${WEATHER_API_URL:http://api.weatherapi.com/}
+  key: ${WEATHER_API_KEY:6a5bfb7354774e43b1c105914200911}
+venues-api:
+  url: ${VENUES_API_URL:https://api.foursquare.com/}
+  client_id: ${CLIENT_ID:WWIIA4TCVLKALBSCUNWBFKB3V0HF0BXLHVHQW3X5G3HQJ11N}
+  client_secret: ${CLIENT_SECRET:SOOSU2K3F3QDFIDHZRYDGXN2OPP4YM4F0QSK0NS4C20YIPF2}
+route-api:
+  url: ${ROUTE_API_URL:https://api.geoapify.com/}
+  key: ${ROUTE_API_KEY:827903ca0419402e95e5d8833a5cc40c}
